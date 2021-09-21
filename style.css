@@ -1,0 +1,40 @@
+body{
+	background: #3498db;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+
+#form-container{
+	background: white;
+	padding: 50px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+h2{
+	margin: 0px 0px 10px 0px;
+}
+input{
+	width: 200px;
+	margin: 10px 0px;
+	padding: 10px;
+
+}
+input:hover{
+	background:#F4F6F7;
+	transition: 0.7s;
+	border-radius: 5px;
+}
+#submit{
+	width: 222px;
+	background: #3498db;
+}
+
+.error{
+	color: red;
+	margin: 0px;
+	text-align: left;
+}
